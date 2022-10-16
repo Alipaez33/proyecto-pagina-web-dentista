@@ -121,6 +121,8 @@ iframe{
 section iframe{
     width: 100px;
     height: 100px;
+    display: grid;
+    justify-content: end ;
 }
 form{
     display:flex;
@@ -131,7 +133,7 @@ form{
     display: flex;
     justify-content: center;
 }
-@media (max-width: 576px){
+@media (min-width: 576px){
 
     .container-img{
         grid-template-columns :repeat 1fr;
@@ -140,5 +142,58 @@ form{
         "box-1"
         "box-2"
         "box-3"
+        ;
     }
+    header a{
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(3, 1fr);
+        font-size: 19px;
+        }
+        section p{
+            font-size: 19px
+        } 
+       main p{
+            font-size: 19px;
+            padding: 5px;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        section div p{
+            font-size: 19px;
+            text-align: left;
+        }
+        iframe{
+            width: 19px;
+            height: 19px; 
+            justify-content: end;           
+        }
+        section iframe{
+            width: 50px;
+            height: 50px;
+        }
+        div p{
+            font-size: 10px;
+            text-align: end;
+            padding: 5px;
+            margin: 5px;
+            letter-spacing: 2px;
+        }
+        p{
+            list-style: none;
+            font-size: 10px;
+            font-weight: bolder
+        }
+        .mapa a{
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            justify-content: end;
+            margin: 5px;
+            padding: 5px;
+            }
+            .mapa a :hover{
+                color: rgb(206,161,75,100)
+            }
+        ;
 }
