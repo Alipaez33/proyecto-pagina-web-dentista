@@ -112,9 +112,21 @@ iframe{
     letter-spacing: 5px;
     margin-right: 10px;
     }
-  footer{
-   background-color: white;
-}
+    .mapa  a{
+        text-decoration: none;
+        list-style: none;
+        text-align: end;
+        margin: 10px;
+        justify-content: end;
+    }
+    footer {
+        display: grid;
+        width: auto;
+        height: auto;
+        justify-content: end;
+        list-style: none;
+        text-decoration: none;
+        }
 .redes-sociales img{ 
     width: 25px;
     height: 25px;
@@ -134,7 +146,6 @@ form{
 
 @media (max-width:992px){
     header{
-        display: grid;
         width: 992px;
         height: auto;
        }
@@ -143,7 +154,7 @@ form{
         height: 350px;
         }
     .navbar{
-        display: flex;
+        
         list-style: none;
         width: 992px;
         height: auto;
@@ -169,11 +180,7 @@ form{
             border-radius: 20px 0px 0px 20px;
             margin: 50px
              }
-        ul li a{
-            display: grid;
-            width: auto;
-            height: auto;
-        }
+        
         main{
             background-color: rgb(206, 161, 75, 100); 
             width:  992px;
@@ -224,7 +231,6 @@ form{
 
 @media (max-width:768px){
     header{
-        display: grid;
         width: 768px;
         height: auto;
        }
@@ -301,7 +307,6 @@ form{
 
 @media (max-width:576px){
     header{
-        display: grid;
         width: 576px;
         height: auto;
        }
