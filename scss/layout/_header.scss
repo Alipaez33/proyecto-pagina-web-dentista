@@ -1,0 +1,34 @@
+    header {    
+    background-color: rgb(206, 161, 75);
+        
+    a{
+        justify-content: end;
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-right: 10px;
+        display: flex;
+        
+         }
+         
+    .logocoesp {
+    width: auto;
+    height: 250px;
+    justify-content: left;
+    display: flex;
+    }
+    .navbar{
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    font-weight: bolder;
+    padding: 10px;
+    
+    }        
+}
+.navbar :hover{
+    color: white;
+                        
+}

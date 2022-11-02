@@ -1,0 +1,110 @@
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-quienes-somos";
+@import "./layout/main-galeria";
+@import "./layout/main-procedimientos";
+@import "./layout/main-formulario";
+@import "./components/bootstrap";
+@import "./layout/footer";
+@import "./layout/media-destok";
+
+
+
+
+
+
+
+
+
+@media (max-width:992px){
+    header{
+        width: 992px;
+        height: auto;
+       }
+        .logocoesp {
+        width: 350px;
+        height: 350px;
+        }
+    .navbar{
+        
+        list-style: none;
+        width: 992px;
+        height: auto;
+        justify-content: end;
+        font-size: bolder;
+        margin-right: 10px;
+        
+        }
+        div .logocoesp{
+            display: grid;
+            width: 350px;
+            height: auto;
+        }
+        main div{
+            justify-content: end;
+            display: end;
+        }
+        .foto-domingo{
+            display:grid ;
+            width: 250px;
+            height: 250px;
+            border: 20px;
+            border-radius: 20px 0px 0px 20px;
+            margin: 50px
+             }
+        
+        main{
+            background-color: rgb(206, 161, 75); 
+            width:  992px;
+            height: auto;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+         .container-img{
+                display: grid; 
+                width: 992px;
+                height: auto;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                justify-items: center;
+                background-color: rgb(206, 161, 75);
+                grid-template-areas: 
+                "box-1 box-2 box-3"
+                "box-4 box-5 box-6" 
+                "box-7 box-8 box-9"
+                }
+                        
+        footer {
+            display: grid;
+            width: 992px;
+            height: auto;
+            justify-content: end;
+            list-style: none;
+            text-decoration: none;
+            }
+         .redes-sociales {
+            list-style: none;
+            display: end;
+            text-align: end;
+            text-decoration: none;
+            }
+         .mapa  a{
+                text-decoration: none;
+                list-style: none;
+                text-align: end;
+                margin: 10px;
+            }
+            .mapa{
+                list-style: none;
+                text-decoration: none;
+                
+                
+            }
+            }
+
+
+
+

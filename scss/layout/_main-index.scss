@@ -1,0 +1,25 @@
+main{
+    background-color: rgb(206, 161, 75);
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    
+    
+    display: flex;
+ .bienvenidos{
+        font-size: 80px;
+        padding: 20px;
+    }
+}
+.foto-domingo {
+    width: 250px;
+    height: 250px;
+    border: 20px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 50px;
+    display: flex;  
+    }
+    main div{
+        display: flex;
+        justify-content: end;
+    }
